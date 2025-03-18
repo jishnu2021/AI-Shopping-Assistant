@@ -2,18 +2,6 @@
     "Rewrites": [
         {
             "source": "/(.*)",
-            "destination": "/"   
-        }],
-
-        "routes": [
-            {
-                "src": "/(.*)",
-                "status": 200,
-                "headers": {
-                    "cache-control": "public, max-age=0, must-revalidate"
-                },
-                "continue": true,
-                "dest": "/"
-            }
-        ]
+            "destination": "/index.html"   
+        }]
 }
